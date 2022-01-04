@@ -1,0 +1,6 @@
+framework module Pods_BrainTreeIntegration_BrainTreeIntegrationUITests {
+  umbrella header "Pods-BrainTreeIntegration-BrainTreeIntegrationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_BrainTreeIntegration_BrainTreeIntegrationUITests : NSObject
+@end
+@implementation PodsDummy_Pods_BrainTreeIntegration_BrainTreeIntegrationUITests
+@end

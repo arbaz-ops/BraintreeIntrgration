@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (5.5.0)
+  - Braintree (5.5.0):
+    - Braintree/Card (= 5.5.0)
+    - Braintree/Core (= 5.5.0)
+    - Braintree/PayPal (= 5.5.0)
+  - Braintree/ApplePay (5.5.0):
+    - Braintree/Core
+  - Braintree/Card (5.5.0):
+    - Braintree/Core
+  - Braintree/Core (5.5.0)
+  - Braintree/PaymentFlow (5.5.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - Braintree/PayPal (5.5.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - Braintree/PayPalDataCollector (5.5.0)
+  - Braintree/ThreeDSecure (5.5.0):
+    - Braintree/Card
+    - Braintree/PaymentFlow
+  - Braintree/UnionPay (5.5.0):
+    - Braintree/Card
+  - Braintree/Venmo (5.5.0):
+    - Braintree/Core
+  - BraintreeDropIn (9.3.0):
+    - Braintree/ApplePay (~> 5.5)
+    - Braintree/Card (~> 5.5)
+    - Braintree/Core (~> 5.5)
+    - Braintree/PayPal (~> 5.5)
+    - Braintree/ThreeDSecure (~> 5.5)
+    - Braintree/UnionPay (~> 5.5)
+    - Braintree/Venmo (~> 5.5)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Braintree
+  - Braintree/PayPal
+  - BraintreeDropIn
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Braintree
+    - BraintreeDropIn
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Braintree: acd5dd18b4aff8858346d6b6f6f3b5bc059332fb
+  BraintreeDropIn: ed7292064dca8738cfbb8445c6984f144328ffa9
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 2b78fe2ace5d0f9c27adbd20e7ee51601a13399d
+
+COCOAPODS: 1.11.2
